@@ -1,10 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
-import FooterTitle from '../Components/FooterTitle';
-import {Cart} from '../Components';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import FooterTitle from '../components/FooterTitle';
+import {Cart} from '../components';
 import { useStateContext } from '../context/StateContext';
 
 const Layout1 = ({children}) => {
