@@ -18,7 +18,7 @@ a {
 }
 
 .main-container{
-max-width: 1400px; 
+max-width: 1490px; 
 margin: auto;
 width: 100%;
 
@@ -42,17 +42,18 @@ width: 100%;
 }
 .marquee {
   position: relative;
-  height: 370px;
+  height: 400px;
   width: 100%;
   overflow-x: hidden;
 }
 
 .scroll-buttons{
   position: absolute;
-  top: 100px;
+  top: 200px;
   z-index: 90;
-  display: flex;
-  justify-content: space-between;
+  flex: auto;
+  width: 100%;
+  left: 2vw;
 
 }
 
@@ -71,7 +72,7 @@ width: 100%;
 
 .scroll-left{
   position: relative;
-  left: 5vw;
+  
   color: #f76c6c;
   opacity: 0;
   transition: transform .4s ease;
@@ -90,7 +91,7 @@ width: 100%;
 
 .scroll-right{
   position: relative;
-  left: 82vw;
+  left: 60vw;
   color: #f76c6c;
   transition: transform .4s ease;
   border: none;
@@ -294,6 +295,7 @@ flex-direction: column;
   text-align: center;
   margin: 40px 0px;
  color: #374785;
+ max-width: 1440px;
 
 }
 .products-heading h2{
@@ -685,6 +687,10 @@ padding: 6px;
 
 .maylike-products-wrapper{
   margin-top: 80px;
+  position: relative;
+  height: 500px;
+  width: 100%;
+  max-width: 100%;
 }
 .maylike-products-wrapper h2{
   text-align: center;
@@ -695,9 +701,9 @@ padding: 6px;
 }
 .maylike-products-container{
   display: flex;
-  justify-content: center;
   gap: 35px;
   margin-top: 30px;
+  max-width: 1440px;
 }
 .max-qty{
   font-weight: 500;

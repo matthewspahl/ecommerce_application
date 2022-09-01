@@ -120,9 +120,8 @@ const ProductDetails = ({product, products}) => {
 
       <div className='maylike-products-wrapper'>
         <h2>Products you may also like</h2>
-        <div className='marquee'>
 
-          <div className='scroll-buttons'>
+        <div className='scroll-buttons'>
           
           <button type='button' className='scroll-left' id="scroll-left" onClick={() => moveLeft()}>
           <AiFillLeftCircle/>
@@ -132,6 +131,10 @@ const ProductDetails = ({product, products}) => {
           </button>
 
           </div>
+          
+        <div className='marquee'>
+
+          
           <div className='maylike-products-container track' id="track1">
             
             {products.map( (item) => (<Product key={item._id} product={item}/>)   )}
